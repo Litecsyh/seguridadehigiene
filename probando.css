@@ -1,0 +1,201 @@
+*{margin: 0px;
+padding: 0px;
+flex-wrap: wrap;
+box-sizing: border-box;}
+
+
+@@font-face {
+
+}
+
+
+header   {background-image: url(https://www.seguretatsm.com/wp-content/uploads/2019/01/Treballs-en-al%C3%A7ada-1920x1080.jpg);
+  width: :100%;
+  height: 43em;
+  margin-top: -0.938}
+
+
+
+nav ul li {display: inline-block;
+  float:right;
+  margin: 1.98em;}
+
+nav ul li a{color:white}
+nav ul li a:hover{color:grey}
+
+#logo img {width: 5%;
+   margin-left: 6.25em;
+   margin-top: 1.98em;
+
+ }
+
+
+#titulo h1{font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-weight: 700em;
+    font-size: 90px;
+      }
+
+      #titulo h1::after{content: "Laboral";}
+      #titulo h1::before{content: "Seguridad"}
+    .Redes img{width: 3.125em;
+       margin: 30px;
+     position: relative; left:200px}
+
+
+/*------DOS COLUMNAS----*/
+
+.nosotros{width: 100%;
+height: 43em;background: red; }
+
+.nosotros section{width: 50%;
+  margin-left:5em;
+  margin-top: 5em;
+  float: left; text-align: center;}
+
+  /*------PSEUDOELEMENTOS----*/
+.nosotros section h1::selection{
+  background:green
+}
+
+
+.nosotros section h1 {font-size: 50px}
+.nosotros section h2{ margin-top: 2em}
+.nosotros section p{margin-top: 3em}
+
+.nosotros  aside img {width: 25%;
+  float: right;
+  margin-right: 5em;
+  margin-top: 5em
+}
+
+
+/*------SERVICIOS----*/
+.container{text-align: center;
+  background-color: #4C42C0;
+  height: 63em;
+width: 100%}
+
+
+
+.intro{text-align: center;
+}
+.intro h1 { color: yellow; margin-top:1em }
+
+
+
+.servicio1 {background: #F9F9F9;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  margin: 5px;
+height: 20em;
+width: 13em;
+}
+
+.servicio1, .servicio2  p {color:black;padding: 2px 2px 2px 2px}
+.servicio2 {background:  #F9F9F9;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  margin: 5px;
+height: 20em;
+width: 13em}
+
+
+.servicio1 h4{color: grey};
+.servicio1 p {color:red}
+
+
+
+
+
+
+.contacto{background: grey;
+width: 100%;
+height: 43em;
+}
+
+.contacto h1{; font-family:  monospace;
+  margin-top: 100px;
+  color:white;
+   font-size: 50px}
+
+.contacto p{text-align: left;
+margin-left: 130px;
+font-size: 30px}
+
+
+form {width: 30%;
+border:1px solid #ccc;
+margin-top: 20px;
+margin-left: 100px;
+font-family: cursive;
+padding: 3px;
+background: #ccc}
+
+label{
+  font-size: 12px;
+  float:left;
+  display: block;
+padding: 10PX;
+font-size:15px;
+padding-top:10px
+}
+
+
+
+
+input{
+margin-top:10px; ;
+width: 80%;
+ padding:10px;
+box-sizing: border-box;
+border: 1px solid grey;
+float: left;
+display:block
+}
+
+textarea{
+margin-top:10px; margin-bottom: 10px;
+width: 95%;
+padding:5px;
+box-sizing: border-box;
+border: 1px solid grey;
+float: left;
+}
+
+
+textarea{resize: vertical; max-height: 150px}
+input:focus{ border: 1px solid #ccc}
+
+input[type="submit"]
+{margin-bottom:0;
+background: #1668C4;
+color: #FFF;
+border:none}
+
+input[type="submit"]:hover
+{background: #1668f4;
+cursor: pointer;}
+
+.puto aside p {text-align: right;
+  border: 1px solid black;
+display:inline-block;
+width: 12em;
+height: 7em;
+font-size:20px;
+text-align: left;
+}
+
+
+.datos p {color:black;
+display: block; border:none}
+
+
+  /*------PSEUDOELEMENTOS----*/
+#enviar:hover{background: blue}
+#enviar:active {background: red}
+
+<
